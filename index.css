@@ -399,6 +399,7 @@ textarea {
     font-weight: bold;
     
      display: flex;
+     flex-direction: column;
     justify-content: space-between;
     text-align: center
   }
@@ -413,6 +414,7 @@ textarea {
     color: rgba(0,0,0, 0.53);
     font-weight: bold;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     text-align: center
   }
@@ -420,6 +422,11 @@ textarea {
   .flex-container2 p {
     background-color: #ad9f93;
     width: 75%;
+  }
+
+  .flex-container2 img {
+    border: #E56969;
+    width: 300px;
   }
   
   .flex-container1 > div {
